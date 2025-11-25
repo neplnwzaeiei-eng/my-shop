@@ -33,7 +33,7 @@ export default function App() {
       <ScrollView contentContainerStyle={styles.body}>
         {products.map((p) => (
           <View style={styles.card} key={p.id}>
-            <Text style={styles.index}># {p.id}</Text>
+            <Text style={styles.index}>Agent {p.id}</Text>
             <Text style={styles.title}>{p.name}</Text>
           </View>
         ))}
